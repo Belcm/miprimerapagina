@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+
+    <title>Mi primera web</title>
+</head>
+<body>
+  <header id="encabezado">
+    <div class="container">
+      <div class="icon"><img src="imagen/icon.jpg" /></div>
+      <h1 class="logo">
+        <a href="https://egg.live/"
+        class="fuenteacento">Mi web</a>
+      </h1>
+      <div class="opciones">
+      <div class="Inicio"><strong>Inicio</strong></div>
+      <div class="Yo"><strong>Acerca de mí</strong></div>
+      <div class="Trabajos"><strong>Trabajos</strong></div>
+      <div class="Servicios"><strong>Servicios</strong></div>
+      <div class="Contacto"><strong>Contacto</strong></div>
+  </div>
+    <nav>
+      <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+          <ul class="menu">
+             <li><a class="navli" href="index.html">Inicio</a></li>
+             <li><a class="navli" href="#section-principal">Acerca de mí</a></li>
+             <li><a class="navli" href="#tarjetas">Trabajos</a></li>
+             <li><a class="navli" href="index.html">Servicios</a></li>
+             <li><a class="navli" href="#contacto">Contacto</a></li>
+         </ul>
+       </nav>
+    </nav>
+  </header>
+
+    <main id="section-principal">
+      <div class="Yo"> <strong>Acerca de mí</strong></div>
+      <div class="contenido">
+        <p class="parrafo1">
+          ¡Bienvenido a mi página! 
+          Aquí, aprenderás más sobre mi.
+          Me llamo Belén, nací en Perú y 
+          vivo en la ciudad de Lima. 
+          Me gusta el helado y salir a pasear en días de sol.
+          Me encantaría aprender a programar para poder ayudar a
+          las personas a mostrar lo que hacen.
+       </p>
+       <div class="foto"><img src="imagen/programacion.png" /></div>
+    </div>
+    </main>
+    <div class="fotito"><img src="imagen/fond2.jpg"/></div>
+
+    <div class="tarjetas">
+      <div class="cuadro-1"> 
+        <div class="referencia"><img src="imagen/malcolm.PNG"/></div>
+        <h4>Malcolm, el del medio</h4>
+        <p>Sitcom familiar que aborda los divertidos problemas y situaciones de una familia americana de clase media en la que el hijo Malcolm parece ser el único sensato.</p>
+        <button>Ver más</button>
+        
+      </div>
+      <div class="cuadro-2"> 
+        <div class="referencia"><img src="imagen/black.PNG"/></div>
+        <h4>Black Mirror</h4>
+        <p>Esta surrealista serie de antología repleta de historias retorcidas muestra los peores rasgos de la humanidad, sus grandes innovaciones y mucho más.</p>
+        <button>Ver más</button>
+      </div>
+      <div class="cuadro-3"> 
+        <div class="referencia"><img src="imagen/breaking.PNG"/></div>
+        <h4>Breaking Bad</h4>
+        <p>Un profesor de química con cáncer terminal se asocia con un exalumno suyo para fabricar y vender metanfetamina a fin de que su familia no pase apuros económicos.</p>
+        <button>Ver más</button>
+ 
+      </div>
+      <div class="cuadro-3"> 
+        <div class="referencia"><img src="imagen/office.PNG"/></div>
+        <h4>The Office</h4>
+        <p>El iluso jefe Michael intenta encauzar el descontento de su empleados en la empresa papelera Dunder Mifflin a través de continuas debilidades y percances.</p>
+        <button>Ver más</button>
+      </div>
+    </div>
+
+    <div class="form-header">
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+         <div class="form-row">
+             <label for="nombre">Nombre</label>
+             <input id="nombre" name="nombre" type="text" />
+        </div>
+         <div class="form-row">
+             <label for="email">Email</label>
+             <input id="email" name="email" type="email" placeholder="pepe@gmail.com" required />
+        </div>
+        <div class="form-row">
+             <label for="mensaje">Mensaje</label>
+             <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+           <button>Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+      </form>
+    </div>
+    <footer>
+      <h4 id="contacto">Contacto</h4>
+      <ul>
+      <li>Instagram</li>
+      <li>Youtube</li>
+      <li>Linkedln</li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

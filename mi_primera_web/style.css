@@ -94,8 +94,8 @@ main{
 
 .tarjetas img {
     border-radius: 50px;
-    width: 90%; /* Puedes ajustar el valor según tus necesidades */
-    height: auto; /* Para mantener la proporción original de la imagen */    
+    width: 250px; /* Puedes ajustar el valor según tus necesidades */
+    height: 180px; /* Para mantener la proporción original de la imagen */    
 }
 
 footer{
